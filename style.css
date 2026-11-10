@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px; 
+}
+nav ul{
+    display: flex;
+    gap: 12px; 
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 30px;
+}
+nav img{
+    width: auto;
+    height: 7vh;
+}
+nav li a{
+    font-weight: 100;
+    color: #2e2a26;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+button{
+    background-color: #2e2a26;
+    color: orange;
+    width: fit-content;
+    align-self: center;
+    gap: 10px;
+    border: 0;
+    font: inherit;
+    padding: 5px 10px;
+
+}
+nav li a:hover{
+    color: orange;
+}
+
+#accueil{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    background-image: cover;
+}
+#accueil img{
+    display: block;
+    width: min(60%, 700px);
+    height: auto;
+    object-fit: cover;
+}
+#accueil h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+
+}
+#accueil button {
+    margin: 12px 8px 0 0;
+    background-color: #2e2a26;
+    color: #fff;
+}
+ 
+#accueil .second {
+    border: 1px solid #2e2a26;
+    background-color: transparent;
+    color: #2e2a26;
+}
